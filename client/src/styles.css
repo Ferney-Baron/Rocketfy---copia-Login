@@ -1,0 +1,197 @@
+body {
+    background-color: #f5f6fa;
+    font-family: Niveau Grotesk,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+
+.logo img {
+    height: 49px;
+    margin-bottom: .9rem;
+}
+
+.logo h2 {
+    color: #000000;
+    font-size: 2.1rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 34px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-color: #d1d5db;
+    border-width: .1rem;
+    border-style: solid;
+    border-radius: .2rem;
+    margin-top: .7rem;
+    height: 3.2rem;
+    width: 100%;
+    /* padding: 0 2.4rem 0 0; */
+}
+
+.inputs input {
+    border: none;
+    height: 100%;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    font-size: .9rem;
+    color: #000000f0;
+    letter-spacing: .6px;
+}
+
+.inputs label {
+    margin-left: .3rem;
+    margin-right: .3rem;
+    margin-top: .2rem;
+    color: #000000bf;
+    font-size: .9rem;
+    font-weight: 400;
+    letter-spacing: .8px;
+}
+
+form button {
+    width: 100%;
+    height: 2.7rem;
+    margin-top: .7rem;
+    border: none;
+    background-color: #e5e7eb;
+    color: #00000073;
+    margin-bottom: 0;
+}
+
+form button:hover {
+  cursor: pointer;
+  
+}
+
+form {
+    width: 24rem;
+}
+
+.form {
+    margin: 2rem 2.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.button-create {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .6rem;
+}
+.button-create div{
+    width: 24rem;
+}
+
+.button-create button {
+    width: 100%;
+    /* margin-top: .6rem; */
+    color: #5a1dfc;
+    background-color: #f1f5f9;
+    border: none;
+    height: 2.7rem;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.b {
+    margin-top: 1rem;
+}
+
+.button-create div button:hover {
+    background-color: #e2e4f8;
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.2rem;
+    flex-direction: column;
+    
+}
+
+.info p {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: .9rem;
+    color: #0000008a;
+    font-weight: 400;
+}
+
+@media (min-width: 768px) {
+    .App {
+        height: 95vh;
+        background-image: url(https://app.rocketfy.co/assets/img/manito.png);
+        background-repeat: no-repeat;
+       
+        background-position-x: 100%;
+        background-position-y: 145%;
+
+    }
+}
+
+.signup-create {
+    text-align: center;
+    /* margin-top: .4rem; */
+}
+
+.signup-create p:first-child {
+    font-size: 2rem;
+    margin: 0;
+    margin-top: .3rem;
+    color: #171515c0;
+    
+}
+
+.signup-create p:first-child span{
+    color: #5a1dfc;
+    font-weight: 600;
+    
+}
+
+@media (max-width:542px) {
+
+    .signup-create p:first-child span span{
+        display: block;
+    }
+
+    .signup-create p:nth-child(2) span{
+        display: block;
+        
+    }
+
+    .signup-create p:nth-child(2) {
+        margin-top: 2rem;
+        
+        
+    }
+}
+
+
+
+.signup-create p:nth-child(2) {
+    color: #171515c5;
+    font-size: 1.2rem;
+    font-weight: 400;
+    /* margin-top: .7rem; */
+    margin-bottom: 0;
+    
+}
+
+.signup-create p:nth-child(2) span{
+    color: #171515c5;
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+}
